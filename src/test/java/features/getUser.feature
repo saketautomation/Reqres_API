@@ -1,1 +1,3 @@
-Feature: Get User feature
+Feature: Get User feature and test scenarios
+
+  
