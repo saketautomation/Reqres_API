@@ -5,9 +5,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+
+
 public class CreateReqresUserStepDef {
+
+  //  static Logger logger = Logger.getLogger(CreateReqresUserStepDef.class);
+
     @Given("I have base url")
     public void i_have_base_url() {
+
 
     }
 
