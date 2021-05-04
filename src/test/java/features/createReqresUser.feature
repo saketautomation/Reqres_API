@@ -1,5 +1,6 @@
 Feature: Create REQ|RES User
 
+  @helloMoto
   Scenario Outline: Create a new reqres user
     Given I have base url
     When  I POST the "createUser" endpoint "/api/users" with "<name>" and "<job>"
@@ -8,5 +9,5 @@ Feature: Create REQ|RES User
     Examples:
       | name  | job         |
       | Kiran | Team Lead   |
-      | Rohit | Test Lead   |
-      | John  | QA Engineer |
+     # | Rohit | Test Lead   |
+     # | John  | QA Engineer |
